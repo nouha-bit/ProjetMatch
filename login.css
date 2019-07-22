@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');
+*{margin: 0;padding: 0;}
+*:focus{outline: none}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url(images/active-activity-athletes-1667583.jpg)no-repeat scroll 40% 20%;
+    font-size: 14px;
+    background-size: 100%;
+}
+.login_area{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    background: #0000009c;
+    width: 320px;
+    padding: 20px;
+    color: #fff;
+}
+.avater{
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+}
+.login-form{
+    margin-top: 45px;
+    position: relative;
+}
+.login-form p.msg {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 14px;
+}
+p.errmsg {
+    color: red;
+}
+.login-form input[type='text'],  
+.login-form input[type='password']{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #afafaf;
+    background: none;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.login-form form div {
+    position: relative;
+}
+
+.login-form form div label {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    transition: all 0.3s ease;
+    color: #adadad;
+    font-weight: 100;
+}
+
+.login-form input[type='text']:focus ~ label, 
+.login-form input[type='password']:focus ~ label, 
+.login-form input[type='text']:valid ~ label,  
+.login-form input[type='password']:valid ~ label{
+    top: -25px;
+    left: 0;
+    color: #C62828;
+    font-weight: 500;
+    font-size: 14px;
+}
+.login-form input[type='text']:valid, 
+.login-form input[type='password']:valid{
+    border-bottom-color: #C62828;
+}
+.login_area h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.button1
+{
+    display: block;
+    width: 100%;
+    background:transparent;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 0px;
+    float: right; 
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.button3
+{
+    display: block;
+    width: 100%;
+    background: #C62828;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.button2{
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 0px;
+    margin-left: 0px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+.login-form input[type='submit'] {
+    display: block;
+    width: 100%;
+    background: #C62828;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.login-form input[type='submit']:hover{
+    background: #C62828;
+}
+.login-form p{
+    margin: 10px 0px;
+}
+.login-form a{
+    color: #afafaf;
+    text-decoration: none;
+    transition: .5s;
+}
+.login-form a:hover{
+    color: #C62828;
+    padding: 0px 5px;
+}
+.msg {
+    position: fixed;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #f5ff00;
+    font-weight: 400;
+}
