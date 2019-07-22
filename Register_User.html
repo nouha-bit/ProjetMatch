@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <td>Nom<input type="text" id="nom"></td>
+        </tr>
+        <tr>
+            <td>Prenom<input type="text" id="prenom"></td>
+        </tr>
+        <tr>
+            <td>Email<input type="text" id="email"></td>
+        </tr>
+        <tr>
+            <td>Password<input type="text" id="pwd"></td>
+        </tr>
+        <tr>
+            <td>Adresse<input type="text" id="adresse"></td>
+            <td>Pays
+                <select id="pays">
+                    <option value="Afrique du Sud">Afrique du Sud</option>
+                    <option value="Algérie">Algérie</option>
+                    <option value="Angola">Angola</option>
+                    <option value="Burundi">Burundi</option>
+                    <option value="Cameroun">Cameroun</option>
+                    <option value="Cote d'Ivoire">Cote d'Ivoire</option>
+                    <option value="Egypte">Egypte</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Guinee">Guinee</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Madgascar">Madgascar</option>
+                    <option value="Maroc">Maroc</option>
+                    <option value="Mauritanie">Mauritanie</option>
+                    <option value="Nigiria">Nigiria</option>
+                    <option value="Sengal">Sengal</option>
+                    <option value="Tunisie">Tunisie</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td>Date Naissance <input type="date" id="datenaissance"> </td>
+
+        </tr>
+        <tr>
+            <td><button type="submit" onclick="Register_User()">Submit</button></td>
+        </tr>
+
+    </table>
+  
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-database.js"></script>
+    <script src="Register.js"></script>
+</body>
+
+</html>
